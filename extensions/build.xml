@@ -28,5 +28,6 @@
   <target name="test">
     <echo message="Testing extensions" />
     <ant dir="jython/" target="test" />
+    <ant dir="wikidata/" target="test" />
   </target>
 </project>
